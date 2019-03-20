@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloudLearning.iml" filepath="$PROJECT_DIR$/.idea/SpringCloudLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/client/client.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/eureka/eureka.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/product/product.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/product/product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/product/client/product-client.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/product/client/product-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/product/common/product-common.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/product/common/product-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/product/server/product-server.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/product/server/product-server.iml" />
     </modules>
   </component>
 </project>
