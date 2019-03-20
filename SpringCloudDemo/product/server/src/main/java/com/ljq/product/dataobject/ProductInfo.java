@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
-//@Table(name = "T_proxxx")
 @Entity
 public class ProductInfo {
 

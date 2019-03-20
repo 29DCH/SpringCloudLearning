@@ -16,4 +16,5 @@ public class ProductVO {
 
     @JsonProperty("foods")
     List<ProductInfoVO> productInfoVOList;
+
 }
