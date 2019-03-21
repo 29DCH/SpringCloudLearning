@@ -1,12 +1,12 @@
 spring:
   application:
     name: order
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: CONFIG
-      profile: test
+  #cloud:
+    #config:
+      #discovery:
+        #enabled: true
+        #service-id: CONFIG
+      #profile: test
     stream:
       bindings:
         myMessage:

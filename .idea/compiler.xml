@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="eureka" />
+        <module name="order-client" />
+        <module name="order-common" />
+        <module name="order-server" />
         <module name="product-client" />
         <module name="product-common" />
         <module name="product-server" />
@@ -16,6 +19,10 @@
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="order-client" target="1.8" />
+      <module name="order-common" target="1.8" />
+      <module name="order-server" target="1.8" />
       <module name="product" target="1.8" />
       <module name="product-client" target="1.8" />
       <module name="product-common" target="1.8" />
