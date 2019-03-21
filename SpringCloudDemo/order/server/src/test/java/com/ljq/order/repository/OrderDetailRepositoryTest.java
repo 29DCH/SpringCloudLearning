@@ -18,12 +18,12 @@ public class OrderDetailRepositoryTest extends OrderApplicationTests {
     @Test
     public void testSave() {
         OrderDetail orderDetail = new OrderDetail();
-        orderDetail.setDetailId("12367");
-        orderDetail.setOrderId("123456");
+        orderDetail.setDetailId("12361237");
+        orderDetail.setOrderId("12345136");
         orderDetail.setProductIcon("http://xxx.com");
-        orderDetail.setProductId("157875196366160022");
+        orderDetail.setProductId("157875112341366160022");
         orderDetail.setProductName("皮蛋瘦肉粥");
-        orderDetail.setProductPrice(new BigDecimal(0.01));
+        orderDetail.setProductPrice(new BigDecimal(0.29));
         orderDetail.setProductQuantity(2);
 
         OrderDetail result = orderDetailRepository.save(orderDetail);
