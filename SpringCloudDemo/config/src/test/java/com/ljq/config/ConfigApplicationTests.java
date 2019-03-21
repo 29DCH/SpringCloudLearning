@@ -1,4 +1,4 @@
-package com.imooc.config;
+package com.ljq.config;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

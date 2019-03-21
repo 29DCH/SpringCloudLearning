@@ -1,4 +1,4 @@
-package com.imooc.config;
+package com.ljq.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
