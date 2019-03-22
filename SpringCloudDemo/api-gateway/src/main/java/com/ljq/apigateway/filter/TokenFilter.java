@@ -1,4 +1,4 @@
-//package com.imooc.apigateway.filter;
+//package com.ljq.apigateway.filter;
 //
 //import com.netflix.zuul.ZuulFilter;
 //import com.netflix.zuul.context.RequestContext;
@@ -10,11 +10,6 @@
 //
 //import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_DECORATION_FILTER_ORDER;
 //import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
-//
-///**
-// * Created by 廖师兄
-// * 2018-02-15 15:34
-// */
 //@Component
 //public class TokenFilter extends ZuulFilter {
 //    @Override

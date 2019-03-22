@@ -1,7 +1,7 @@
-package com.imooc.apigateway.filter;
+package com.ljq.apigateway.filter;
 
 import com.google.common.util.concurrent.RateLimiter;
-import com.imooc.apigateway.exception.RateLimitException;
+import com.ljq.apigateway.exception.RateLimitException;
 import com.netflix.zuul.ZuulFilter;
 import org.springframework.stereotype.Component;
 
@@ -10,8 +10,6 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 
 /**
  * 限流
- * Created by 廖师兄
- * 2018-03-11 23:44
  */
 @Component
 public class RateLimitFilter extends ZuulFilter{

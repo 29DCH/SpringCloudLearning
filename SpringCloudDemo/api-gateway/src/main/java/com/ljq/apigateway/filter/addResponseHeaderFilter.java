@@ -1,4 +1,4 @@
-package com.imooc.apigateway.filter;
+package com.ljq.apigateway.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
@@ -11,10 +11,6 @@ import java.util.UUID;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.POST_TYPE;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.SEND_RESPONSE_FILTER_ORDER;
 
-/**
- * Created by 廖师兄
- * 2018-02-15 16:00
- */
 @Component
 public class addResponseHeaderFilter extends ZuulFilter{
     @Override

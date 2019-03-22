@@ -1,4 +1,4 @@
-package com.imooc.apigateway;
+package com.ljq.apigateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

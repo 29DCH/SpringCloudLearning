@@ -1,4 +1,4 @@
-package com.imooc.apigateway.config;
+package com.ljq.apigateway.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,8 +10,6 @@ import java.util.Arrays;
 
 /**
  * 跨域配置
- * Created by 廖师兄
- * 2018-03-11 23:04
  * C - Cross  O - Origin  R - Resource  S - Sharing
  */
 @Configuration

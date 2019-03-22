@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloudLearning.iml" filepath="$PROJECT_DIR$/.idea/SpringCloudLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/client/client.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/config/config.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/eureka/eureka.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/eureka/eureka.iml" />
