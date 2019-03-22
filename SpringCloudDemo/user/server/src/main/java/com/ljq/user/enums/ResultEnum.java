@@ -1,11 +1,7 @@
-package com.imooc.user.enums;
+package com.ljq.user.enums;
 
 import lombok.Getter;
 
-/**
- * Created by 廖师兄
- * 2017-12-10 17:32
- */
 @Getter
 public enum ResultEnum {
     LOGIN_FAIL(1, "登录失败"),

@@ -1,13 +1,10 @@
-package com.imooc.user.utils;
+package com.ljq.user.utils;
 
 
-import com.imooc.user.VO.ResultVO;
-import com.imooc.user.enums.ResultEnum;
+import com.ljq.user.VO.ResultVO;
+import com.ljq.user.enums.ResultEnum;
 
-/**
- * Created by 廖师兄
- * 2017-12-10 18:03
- */
+
 public class ResultVOUtil {
 
     public static ResultVO success(Object object) {

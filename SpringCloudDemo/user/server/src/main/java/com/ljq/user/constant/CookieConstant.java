@@ -1,9 +1,5 @@
-package com.imooc.user.constant;
+package com.ljq.user.constant;
 
-/**
- * Created by 廖师兄
- * 2018-03-04 23:28
- */
 public interface CookieConstant {
 
 	String TOKEN = "token";

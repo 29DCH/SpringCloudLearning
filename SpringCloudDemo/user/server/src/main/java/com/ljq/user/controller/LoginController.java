@@ -1,14 +1,14 @@
-package com.imooc.user.controller;
+package com.ljq.user.controller;
 
-import com.imooc.user.VO.ResultVO;
-import com.imooc.user.constant.CookieConstant;
-import com.imooc.user.constant.RedisConstant;
-import com.imooc.user.dataobject.UserInfo;
-import com.imooc.user.enums.ResultEnum;
-import com.imooc.user.enums.RoleEnum;
-import com.imooc.user.service.UserService;
-import com.imooc.user.utils.CookieUtil;
-import com.imooc.user.utils.ResultVOUtil;
+import com.ljq.user.VO.ResultVO;
+import com.ljq.user.constant.CookieConstant;
+import com.ljq.user.constant.RedisConstant;
+import com.ljq.user.dataobject.UserInfo;
+import com.ljq.user.enums.ResultEnum;
+import com.ljq.user.enums.RoleEnum;
+import com.ljq.user.service.UserService;
+import com.ljq.user.utils.CookieUtil;
+import com.ljq.user.utils.ResultVOUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.util.StringUtils;
@@ -23,10 +23,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by 廖师兄
- * 2018-03-04 23:12
- */
 @RestController
 @RequestMapping("/login")
 public class LoginController {

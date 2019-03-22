@@ -1,3 +1,4 @@
+/*
 package com.ljq.apigateway;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -14,3 +15,4 @@ public class ZuulConfig {
         return new ZuulProperties();
     }
 }
+*/

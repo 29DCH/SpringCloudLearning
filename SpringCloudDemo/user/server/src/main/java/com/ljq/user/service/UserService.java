@@ -1,11 +1,8 @@
-package com.imooc.user.service;
+package com.ljq.user.service;
 
-import com.imooc.user.dataobject.UserInfo;
+import com.ljq.user.dataobject.UserInfo;
 
-/**
- * Created by 廖师兄
- * 2018-03-04 21:44
- */
+
 public interface UserService {
 
 	/**

@@ -1,14 +1,10 @@
-package com.imooc.user.dataobject;
+package com.ljq.user.dataobject;
 
 import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-/**
- * Created by 廖师兄
- * 2018-03-04 21:41
- */
 @Data
 @Entity
 public class UserInfo {

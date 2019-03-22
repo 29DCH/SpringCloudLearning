@@ -1,15 +1,12 @@
-package com.imooc.user.service.impl;
+package com.ljq.user.service.impl;
 
-import com.imooc.user.dataobject.UserInfo;
-import com.imooc.user.repository.UserInfoRepostory;
-import com.imooc.user.service.UserService;
+import com.ljq.user.dataobject.UserInfo;
+import com.ljq.user.repository.UserInfoRepostory;
+import com.ljq.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by 廖师兄
- * 2018-03-04 21:45
- */
+
 @Service
 public class UserServiceImpl implements UserService {
 

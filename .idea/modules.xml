@@ -15,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/product/client/product-client.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/product/client/product-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/product/common/product-common.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/product/common/product-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/product/server/product-server.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/product/server/product-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/user/server/server.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/user/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo/user/user.iml" filepath="$PROJECT_DIR$/SpringCloudDemo/user/user.iml" />
     </modules>
   </component>
 </project>
