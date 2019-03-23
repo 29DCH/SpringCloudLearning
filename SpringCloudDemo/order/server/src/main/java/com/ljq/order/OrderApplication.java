@@ -2,6 +2,8 @@ package com.ljq.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -13,9 +15,10 @@ import org.springframework.context.annotation.ComponentScan;
 //@EnableCircuitBreaker
 @SpringCloudApplication
 @ComponentScan(basePackages = "com.ljq")
+@EnableHystrixDashboard
 public class OrderApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(OrderApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(OrderApplication.class, args);
+    }
 }
