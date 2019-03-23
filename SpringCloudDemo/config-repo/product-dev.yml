@@ -14,4 +14,3 @@ spring:
     port: 6379
   jpa:
     show-sql: true
-girl: 18
