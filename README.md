@@ -11,3 +11,7 @@ Eureka
 HystrixDashboard
 
 ![image]()
+
+RabbitMQ
+
+![image]()
