@@ -15,4 +15,13 @@ HystrixDashboard
 
 RabbitMQ
 
+docker run -d --hostname my-rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3.7.13-management
+
 ![image](https://github.com/29DCH/SpringCloudLearning/blob/master/img/1.png)
+
+
+Zipkin
+
+docker run -d -p 9411:9411 openzipkin/zipkin
+
+![image](https://github.com/29DCH/SpringCloudLearning/blob/master/img/4.png)
